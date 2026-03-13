@@ -89,7 +89,7 @@ Plot predictions vs real stock prices
 ---
 
 ## 🧠 LSTM Model Architecture
-
+```
 Input Layer
 ⬇
 LSTM Layer (50 units)
@@ -101,7 +101,7 @@ LSTM Layer (50 units)
 Dense Layer
 ⬇
 Output Layer (Predicted Price)
-
+```
 ---
 
 ## 📈 Results
