@@ -120,30 +120,22 @@ Example Output:
 Actual Price vs Predicted Price Graph
 ```
 
-*(Add your graph image here once generated)*
+<img width="2560" height="1504" alt="image" src="https://github.com/user-attachments/assets/cc1b2a68-648c-4bed-b027-e7a4d5ecffa9" />
 
 ---
 
 ## 📂 Project Structure
 
 ```
-stock-price-trend-prediction-lstm
+StockSenseAI
 │
-├── notebook
-│   └── stock_prediction.ipynb
-│
-├── models
-│   └── lstm_stock_model.h5
-│
-├── data
-│   └── stock_data.csv
-│
-├── streamlit_app
-│   └── app.py
-│
-├── images
-│   └── prediction_graph.png
-│
+├── APPL.csv
+├── powergrid.csv
+├── model.py
+├── stock_dl_model.h5
+├── app.py
+├── .gitignore
+├── LICENSE
 ├── requirements.txt
 └── README.md
 ```
@@ -156,7 +148,7 @@ Clone the repository
 
 ```bash
 git clone https://github.com/ADITI-VERMA05/StockSenseAI.git
-cd stock-price-trend-prediction-lstm
+cd StockSenseAI
 ```
 
 Install dependencies
@@ -169,13 +161,7 @@ pip install -r requirements.txt
 
 ## ▶️ Run the Project
 
-Run the Jupyter Notebook
-
-```
-stock_prediction.ipynb
-```
-
-(Optional) Run Streamlit Dashboard
+Run Streamlit Dashboard
 
 ```bash
 streamlit run app.py
@@ -184,8 +170,10 @@ streamlit run app.py
 ---
 
 ## 📊 Example Visualization
+<img width="2560" height="1504" alt="image" src="https://github.com/user-attachments/assets/f6f7eb6c-4a49-4c01-9e4d-31e0c556f420" />
 
-*(Insert images of graphs here)*
+
+<img width="2560" height="1504" alt="image" src="https://github.com/user-attachments/assets/f02078cd-4e59-44c0-bed6-2848718978f0" />
 
 * Stock Price Trend
 * Moving Average Indicator
